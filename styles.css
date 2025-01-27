@@ -1,0 +1,87 @@
+
+/* -----------------navbar stylying------------------- */
+/* body{
+  width: 100%;
+} */
+
+body{
+  font-family: "Inter", serif;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-ul-items-link{
+    text-decoration: none;
+  color: black;
+}
+
+
+
+/* hero-section--------stylying--------- */
+
+.hero{
+  height: 500px;
+  width: 100%;
+
+ }
+ #hero-mini{
+  width: 643px;
+  height: 350px;
+  border-radius: 4px;
+  margin-right: 10pxpx;
+  background-color: #FFF3E3;
+  position: relative;
+  top: 150px;
+  left: 580px;
+
+ }
+ #hero-btn{
+  background-color: #B88E2F;
+  height: 50px;
+  width: 180px;
+  border-radius: 2px;
+ 
+  color: white;
+margin-top: 20px;
+  margin-left: 30px;
+
+ }
+
+
+ /* --------------------categories secton--------------------------- */
+
+
+ .category{
+  width: 100%;
+  height: 550px;
+}
+#category-items{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+justify-self: center;
+}
+
+.category-item1{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+  justify-self: center;
+}
+.category-item2 img {
+  height: 400px;
+}
+.category-item3 img {
+  height: 400px;
+}
+.category-item4 img {
+  height: 400px;
+}
