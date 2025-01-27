@@ -1,231 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-<style>
-    .products-section{
-        width: 100%;
-        height: 1084px;
-       
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .products-section {
+      width: 100%;
+      height: 1084px;
+
     }
-    .products-catelog{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-  margin-left: 40px;
-    gap: 15px;
 
- }
- #product-catelog-heading{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    text-align: center;
-}
- .catelog-items{
-  width: 285px;
-  height: 446px;
- }
+    .products-catelog {
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-left: 40px;
+      gap: 15px;
 
+    }
 
-</style>
+    #product-catelog-heading {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      text-align: center;
+    }
+
+    .catelog-items {
+      width: 285px;
+      height: 446px;
+    }
+  </style>
 
 </head>
+
 <body>
-    <header>
-<!-- ---------------------------logo--section------------- -->
-        <nav class="navbar">
-            <img src="assets/nav-logos/nav-logo.png" alt="no-logo" style="width: 185px; height: 41px;  justify-self: center;">
+  <header>
+    <!-- ---------------------------logo--section------------- -->
+    <nav class="navbar">
+      <img src="assets/nav-logos/nav-logo.png" alt="no-logo" style="width: 185px; height: 41px;  justify-self: center;">
 
-<!-- -----------------------------pages section--------------------------------- -->
- <ul id="nav-ul" style="list-style: none;display: flex; gap: 20px; justify-content: center; gap:50px;">
-    <li class="nav-ul-items"><a class="nav-ul-items-link" href="">Home</a></li>
-    <li class="nav-ul-items"><a class="nav-ul-items-link" href="">Shop</a></li>
-    <li class="nav-ul-items"><a class="nav-ul-items-link"  href="">About</a></li>
-    <li class="nav-ul-items"><a class="nav-ul-items-link"  href="">Contact</a></li>
- </ul>
+      <!-- -----------------------------pages section--------------------------------- -->
+      <ul id="nav-ul" style="list-style: none;display: flex; gap: 20px; justify-content: center; gap:50px;">
+        <li class="nav-ul-items"><a class="nav-ul-items-link" href="">Home</a></li>
+        <li class="nav-ul-items"><a class="nav-ul-items-link" href="">Shop</a></li>
+        <li class="nav-ul-items"><a class="nav-ul-items-link" href="">About</a></li>
+        <li class="nav-ul-items"><a class="nav-ul-items-link" href="">Contact</a></li>
+      </ul>
 
-<!-- ------------------------account,search,add-to-cart section---------------   -->
+      <!-- ------------------------account,search,add-to-cart section---------------   -->
 
-<ol id="nav-right" style="list-style: none;display: flex; gap: 20px; align-items: center; justify-content: center;">
-    <li class="nav-icons"> <a href=""> <img src="assets/nav-logos/account.svg" alt=""></a> </li>
-    <li class="nav-icons">  <a href=""><img src="assets/nav-logos/search.svg" alt=""> </a>  </li>
-    <li class="nav-icons">  <a href=""><img src="assets/nav-logos/heart.svg" alt=""> </a>  </li>
-    <li class="nav-icons">  <a href=""><img src="assets/nav-logos/shopping-cart.svg" alt=""> </a>  </li>
-    
-</ol>
-        </nav>
-    </header>
+      <ol id="nav-right"
+        style="list-style: none;display: flex; gap: 20px; align-items: center; justify-content: center;">
+        <li class="nav-icons"> <a href=""> <img src="assets/nav-logos/account.svg" alt=""></a> </li>
+        <li class="nav-icons"> <a href=""><img src="assets/nav-logos/search.svg" alt=""> </a> </li>
+        <li class="nav-icons"> <a href=""><img src="assets/nav-logos/heart.svg" alt=""> </a> </li>
+        <li class="nav-icons"> <a href=""><img src="assets/nav-logos/shopping-cart.svg" alt=""> </a> </li>
 
-<!-- -----------------Hero Section-------------------] -->
+      </ol>
+    </nav>
+  </header>
 
-  <div class="hero-sec" style=" width: 100%;height: 600px; background-image: url(assets/hero-img1.png);background-repeat: no-repeat; background-size: cover; background-size: 100% 100%;">
+  <!-- -----------------Hero Section-------------------] -->
+
+  <div class="hero-sec"
+    style=" width: 100%;height: 600px; background-image: url(assets/hero-img1.png);background-repeat: no-repeat; background-size: cover; background-size: 100% 100%;">
 
     <div id="hero-mini">
-<br>
-<br>
-<br>
-        <h5 id="hero-mini-h5" style="margin-left: 30px;">New Arrival</h5>
-        <h1 id="hero-mini-h2" style="margin-left: 30px;margin-top: -17px;">Discover Our <br> New Collection</h1>
-        <p id="hero-mini-p" style="margin-left: 30px;">Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
-        <button id="hero-btn">Buy Now</button>
+      <br>
+      <br>
+      <br>
+      <h5 id="hero-mini-h5" style="margin-left: 30px;">New Arrival</h5>
+      <h1 id="hero-mini-h2" style="margin-left: 30px;margin-top: -17px;">Discover Our <br> New Collection</h1>
+      <p id="hero-mini-p" style="margin-left: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br>
+        elit tellus, luctus nec ullamcorper mattis.</p>
+      <button id="hero-btn">Buy Now</button>
 
-     
-      </div>
+
+    </div>
   </div>
 
-<!-- -------------------category ----- section----------- -->
+  <!-- -------------------category ----- section----------- -->
 
-<div class="category">
-<div id="category-items">
-    <div class="category-item1">
+  <div class="category">
+    <div id="category-items">
+      <div class="category-item1">
         <h3>Browse The Range</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="category-item2">
+      </div>
+      <div class="category-item2">
         <img src="assets/category-images/Mask Group.svg" alt="">
         <h4 class="category-item1-h4">Dining</h4>
-    </div>
-    <div class="category-item3">
+      </div>
+      <div class="category-item3">
         <img src="assets/category-images/Image-living room.svg" alt="">
         <h4 class="category-item1-h4">Living</h4>
-    </div >
-    <div class="category-item4">
+      </div>
+      <div class="category-item4">
         <img src="assets/category-images/Mask Group-1.svg" alt="">
         <h4 class="category-item1-h4">Living</h4>
-    </div >
-</div>
-</div>
-<br>
+      </div>
+    </div>
+  </div>
+  <br>
 
-<!-- -------------------------products catelog------------------------- -->
-<div class="products-section">
-  <div class="products-catelog"> 
+  <!-- -------------------------products catelog------------------------- -->
+  <div class="products-section">
+    <div class="products-catelog">
 
-    <div id="product-catelog-heading">
+      <div id="product-catelog-heading">
         <h3>OUR PRODUCTS</h3>
-    </div>
-   <!-- ------------------product-1--------------- -->
-    <div class="catelog-items" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product-image1.png" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Syltherine</h3>
-        <p>Stylish cafe chair</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>-30%</span>         
+      </div>
+      <!-- ------------------product-1--------------- -->
+      <div class="catelog-items" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product-image1.png" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Syltherine</h3>
+          <p>Stylish cafe chair</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>-30%</span>
+          </div>
         </div>
-    </div>
-  </div> 
+      </div>
 
-  <!-- ------------------product-2--------------- -->
- 
-  <div class="catelog-items" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product-image1.png" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Syltherine</h3>
-        <p>Stylish cafe chair</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>-30%</span>         
+      <!-- ------------------product-2--------------- -->
+
+      <div class="catelog-items" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product-image1.png" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Syltherine</h3>
+          <p>Stylish cafe chair</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>-30%</span>
+          </div>
         </div>
-    </div>
-  </div> 
+      </div>
 
-  <!-- ------------------product-3--------------- -->
+      <!-- ------------------product-3--------------- -->
 
 
-    <div class="catelog-items" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product3.svg" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Lolito</h3>
-        <p>Luxary big sofa</p>
-        <span > <b>Rp 7.000.000</b> </span>&nbsp; &nbsp; <span><del>Rp 14,500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>-50%</span>         
+      <div class="catelog-items" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product3.svg" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Lolito</h3>
+          <p>Luxary big sofa</p>
+          <span> <b>Rp 7.000.000</b> </span>&nbsp; &nbsp; <span><del>Rp 14,500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>-50%</span>
+          </div>
         </div>
-    </div>
-  </div> 
+      </div>
 
-  <!-- ------------------product-4--------------- -->
+      <!-- ------------------product-4--------------- -->
 
-    <div class="catelog-item2" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product4.svg" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Respira</h3>
-        <p>Outdoor bar table and stool</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #2EC1AC; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>New</span>         
+      <div class="catelog-item2" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product4.svg" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Respira</h3>
+          <p>Outdoor bar table and stool</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #2EC1AC; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>New</span>
+          </div>
         </div>
-    </div>
-  </div> 
+      </div>
 
-    <!-- ------------------product-5--------------- -->
+      <!-- ------------------product-5--------------- -->
 
-    <div class="catelog-item2" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product5.svg" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Grifo</h3>
-        <p>Night Lamp</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <!-- <div style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
+      <div class="catelog-item2" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product5.svg" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Grifo</h3>
+          <p>Night Lamp</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <!-- <div style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
             <span>-30%</span>         
         </div> -->
-    </div>
-  </div> 
-
-    <!-- ------------------product-6--------------- -->
-
-    <div class="catelog-item2" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product6.svg" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Muggo</h3>
-        <p>Small Mug</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #2EC1AC; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>-30%</span>         
         </div>
-    </div>
-  </div> 
+      </div>
 
-    <!-- ------------------product-7--------------- -->
-    <div class="catelog-item2" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product7.svg" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Pingky</h3>
-        <p>Cute bed set</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>-30%</span>         
-        </div>
-    </div>
-  </div> 
+      <!-- ------------------product-6--------------- -->
 
-    <!-- ------------------product-8--------------- -->
-    <div class="catelog-item2" style="background-color: #F4F5F7; ">
-      <img src="assets/products-images/product8.svg" alt="" width="285px" height="301px">
-    <div class="product-detail " style="margin-left: 15px;">
-        <h3>Potty</h3>
-        <p>Minimalist flower pot</p>
-        <span > <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>  
-        <div style="width: 48px; height: 48px; background-color: #2EC1AC; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;" >
-            <span>-30%</span>         
+      <div class="catelog-item2" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product6.svg" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Muggo</h3>
+          <p>Small Mug</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #2EC1AC; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>-30%</span>
+          </div>
         </div>
+      </div>
+
+      <!-- ------------------product-7--------------- -->
+      <div class="catelog-item2" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product7.svg" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Pingky</h3>
+          <p>Cute bed set</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #E97171; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>-30%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------product-8--------------- -->
+      <div class="catelog-item2" style="background-color: #F4F5F7; ">
+        <img src="assets/products-images/product8.svg" alt="" width="285px" height="301px">
+        <div class="product-detail " style="margin-left: 15px;">
+          <h3>Potty</h3>
+          <p>Minimalist flower pot</p>
+          <span> <b>Rp 2.500.000</b> </span>&nbsp; &nbsp; <span><del>Rp 3.500.000</del> </span>
+          <div
+            style="width: 48px; height: 48px; background-color: #2EC1AC; color: white; border-radius: 50%; text-align: center; align-content: center; position: relative; top: -400px; left: 200px;">
+            <span>-30%</span>
+          </div>
+        </div>
+      </div>
+      <div id="product-catelog-btn">
+        <button
+          style="width: 245px; height: 48px; color: #B88E2F; background-color: #FFFFFF; border: 1px solid #B88E2F;">
+          Show More</button>
+      </div>
+
     </div>
-  </div> 
-  <div id="product-catelog-btn">
-    <button style="width: 245px; height: 48px; color: #B88E2F; background-color: #FFFFFF; border: 1px solid #B88E2F;"> Show More</button>
+
+
   </div>
-
-  </div>
-
-
-</div>
 </body>
+
 </html>
